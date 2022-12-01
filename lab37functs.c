@@ -42,3 +42,11 @@ void print_bits(void* ptr, int num_bytes) {
 }
 
 // YOUR FUNCTIONS GO HERE
+int sum_squares(int N){
+    if (N == 1){
+        return 1;
+    }
+    else{
+        return N*N + sum_squares(N-1);
+    }
+}

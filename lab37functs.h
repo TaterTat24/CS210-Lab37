@@ -11,5 +11,6 @@
 void print_bits(void* ptr, int num_bytes);
 
 // YOUR FUNCTIONS GO HERE
+int sum_squares(int N);
 
 #endif
