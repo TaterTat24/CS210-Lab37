@@ -1,7 +1,7 @@
 /** lab37-4.c
 * ===========================================================
-* Name: FIRST LAST, DATE
-* Section: SECTION
+* Name: Benjamin Tat
+* Section: T6
 * Documentation: YOUR DOC STATEMENT
 * ===========================================================  */
 
