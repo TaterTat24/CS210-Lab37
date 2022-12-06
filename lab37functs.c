@@ -103,7 +103,13 @@ int is_palindrome(char message[], int len){
 }
 
 int contains_pattern(unsigned int value, unsigned int pattern, int location){
-    return 1;
+    if(((pattern<<location) & value) == value){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+    
 }
 
 int count_vowels(char* string, int accumulator){
